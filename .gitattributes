@@ -1,0 +1,38 @@
+# ============================
+# .gitattributes para proyectos Unity
+# ============================
+
+# Normaliza saltos de línea (evita diffs falsos entre Windows/Mac/Linux)
+* text=auto eol=lf
+
+# Código y archivos de Unity (YAML) siempre como texto
+*.cs          text diff=csharp
+*.meta        text
+*.unity       text eol=lf
+*.asset       text eol=lf
+*.prefab      text eol=lf
+*.mat         text eol=lf
+*.controller  text eol=lf
+*.anim        text eol=lf
+*.physicMaterial text eol=lf
+*.physicsMaterial2D text eol=lf
+*.json        text
+*.md          text
+
+# Binarios: nunca tocar ni diffear como texto
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.tga   binary
+*.tif   binary
+*.psd   binary
+*.wav   binary
+*.mp3   binary
+*.ogg   binary
+*.fbx   binary
+*.blend binary
+*.ttf   binary
+*.otf   binary
+*.dll   binary
+*.zip   binary

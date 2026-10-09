@@ -1,0 +1,50 @@
+# ============================
+# .gitignore para proyectos Unity
+# ============================
+
+# Carpetas generadas automáticamente por Unity (NO subir)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Archivos de IDEs
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Autogenerado por Unity / herramientas
+/[Aa]ssets/AssetStoreTools*
+/[Aa]ssets/Plugins/Editor/JetBrains*
+sysinfo.txt
+crashlytics-build.properties
+*.log
+
+# Archivos de build
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
